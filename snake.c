@@ -107,7 +107,7 @@ int main(void)
 	
 	attron(COLOR_PAIR(2));
 	/* Se va afișa un mesaj la poziția formată din primii doi parametri - (par1, par2) */	
-	mvaddstr(0, 0, "Puteti sa mutati '*' folosind tastele:");
+	mvaddstr(0, 0, "Puteti sa controlati sarpele folosind tastele:");
 	mvaddstr(1, 2, "A - stanga");
 	mvaddstr(2, 2, "D - dreapta");
 	mvaddstr(3, 2, "W - sus");
@@ -139,7 +139,7 @@ int main(void)
 		
 	/* Se mută cursorul la poziția (row, col) */ 
 	move(row, col);
-	/* Se adaugă la poziția indicată de cursor caracterul '*' */
+	/* Se adaugă la poziția indicată de cursor caracterul '%' */
 	addch('%');
 	
 	for(i=2;i<=snake_size;i++)
@@ -303,7 +303,7 @@ int main(void)
 
 			}	
 			
-			/* Se șterge '*' din vechea poziție */
+			/* Se șterge '%' din vechea poziție */
 	//		move(row, col);
 	//		addch(' ');
 
@@ -345,7 +345,7 @@ int main(void)
 				}
 			}
 					
-			/* Se adaugă '*' în noua poziție */
+			/* Se adaugă '%' în noua poziție */
 			snake_piece[1].row=new_row;
 			snake_piece[1].col=new_col;		
 			move(new_row, new_col);
