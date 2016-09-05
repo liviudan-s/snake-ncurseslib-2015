@@ -1,0 +1,8 @@
+Programarea Calculatoarelor, seria CC
+Tema2 - Snake
+
+Am implementat toate taskurile + bonus : scores,highscores,modificare viteza pe verticala(mai mica)pentru a face jocul mai fluent, deoarce sunt mult mai putine pozitii
+fata de orizontala si sarpele s.ar fi miscat prea repede.
+
+Pentru compilare: make
+Pentru rulare: make run
