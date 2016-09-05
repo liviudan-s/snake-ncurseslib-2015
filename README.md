@@ -5,6 +5,7 @@ Pentru obtinerea bibliotecii ncurses:
   sudo apt-get install libncurses5-dev
   
 Pentru compilare: make
+
 Pentru rulare: make run
 
 Improvement(Bonus) fata de enunt:
